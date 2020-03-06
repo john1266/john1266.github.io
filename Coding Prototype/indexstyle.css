@@ -1,0 +1,423 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*css reset above
+Below is the header*/
+
+/*desktop view*/
+
+/*nav bar code*/
+ul{ 
+	padding:0;
+	margin:0;
+	width: 100%;
+	height: auto;
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 100%;;
+ }
+ 
+ li{
+  background-color: rgb(0, 119, 255);
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   float:left;
+   width: 33.33%;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-bottom: black solid 2px;
+   border-top: black solid 2px;
+ }
+
+ a{
+	text-decoration: none;
+	color:white}
+
+a:hover{
+    color: black;
+}
+
+
+.banner{
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    color: black;
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    text-decoration: underline;
+}
+
+/* to make text grow when hover*/ 
+.text:hover {
+    animation-name: hover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover{
+    90%{
+    transform: scale(1.4)}
+}
+
+.news img{
+    width: 33%;
+    height: auto;
+    margin: 2rem;
+    float: left;
+    border: 2px solid black ;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.main{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem
+}
+/* button will link to contact page*/
+button{
+    background-color:  rgb(0, 119, 255);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+/*footer code*/
+
+footer{
+    background-color: rgb(0, 119, 255);
+    position: absolute;
+    width: 100%;
+}
+
+.footimage{
+    width: 3rem;
+    height: auto;
+    float: right;
+    padding: 1rem;
+}
+
+.copyright{
+    float: left;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 10%;
+}
+
+/*mobile view changed font size and margins*/
+
+@media  (max-width:35rem){
+   
+    /*nav bar code*/
+
+ul{ 
+	padding:0;
+	margin:0;
+	width: 100%;
+	height: auto;
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 100%;;
+ }
+ 
+ li{
+  background-color: rgb(0, 119, 255);
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.2rem;
+   width: 100%;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-bottom: black solid 2px;
+   border-top: black solid 2px;
+ }
+
+ a{
+	text-decoration: none;
+	color:white}
+
+a:hover{
+    color: black;
+}
+
+
+.banner{
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    color: black;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    text-decoration: underline;
+}
+
+/*text will grow if finger is held on it*/
+.text:hover {
+    animation-name: hover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover{
+    90%{
+    transform: scale(1.1)}
+}
+
+.news img{
+    width: 50%;
+    height: auto;
+    margin: 2rem;
+    float: left;
+    border: 2px solid black ;
+}
+
+.title{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.main{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem
+}
+/* button will link to contact page*/
+
+
+button{
+    background-color:  rgb(0, 119, 255);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+button:hover{
+    background-color: blue;
+}
+/*footer code*/
+
+footer{
+    background-color: rgb(0, 119, 255);
+    position: absolute;
+    width: 100%;
+}
+
+.footimage{
+    width: 2rem;
+    height: auto;
+    float: right;
+    padding: 0.8rem;
+}
+
+.copyright{
+    float: left;
+    font-size: 1rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 10%;
+}
+}
+
+/*tablet veiw*/
+
+/*nav bar code*/
+
+@media (min-width:35rem) and (max-width: 80rem) {
+
+    /*nav bar coding*/
+    ul{ 
+        padding:0;
+        margin:0;
+        width: 100%;
+        height: auto;
+        list-style-type: none;
+        overflow: hidden;
+        max-width: 100%;;
+     }
+     
+     li{
+      background-color: rgb(0, 119, 255);
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 1.5rem;
+       float:left;
+       width: 33.33%;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+       border-bottom: black solid 2px;
+       border-top: black solid 2px;
+     }
+    
+     a{
+        text-decoration: none;
+        color:white}
+    
+    a:hover{
+        color: black;
+    }
+    
+    
+    .banner{
+        max-width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .text{
+        color: black;
+        font-size: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        text-decoration: underline;
+    }
+    /*text will grow when finger is held*/
+    
+    .text:hover {
+        animation-name: hover;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes hover{
+        90%{
+        transform: scale(1.2)}
+    }
+    
+    .news img{
+        width: 38%;
+        height: auto;
+        margin: 2rem;
+        float: left;
+        border: 2px solid black ;
+    }
+    
+    .title{
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+    
+    .main{
+        font-size: 1.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 1rem
+    }
+    /* button will link to contact page*/
+
+    button{
+        background-color:  rgb(0, 119, 255);
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    
+    button:hover{
+        background-color: blue;
+    }
+    /*footer code below*/
+    footer{
+        background-color: rgb(0, 119, 255);
+        position: absolute;
+        width: 100%;
+    }
+    
+    .footimage{
+        width: 2rem;
+        height: auto;
+        float: right;
+        padding: 1rem;
+    }
+    
+    .copyright{
+        float: left;
+        font-size: 1.2rem;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        bottom: 10%;
+    }
+}
