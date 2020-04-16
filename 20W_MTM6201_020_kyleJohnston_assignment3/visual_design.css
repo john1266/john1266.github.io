@@ -1,0 +1,107 @@
+ul{ 
+	padding:0;
+	margin:0;
+	float:left;
+	display: flex;
+	width: 100%;
+	height: auto;
+	list-style-type: none;
+	text-decoration: none;
+   text-decoration-style: dashed;
+   margin-bottom: 3%;
+ }
+ 
+ li{
+  background-color: purple;
+  padding: 1rem;
+  width: 25%;
+   margin: 0rem;
+   text-align: center;
+   font-family: Impact; 
+   font-size: 1.75rem;
+
+ }
+
+ a{
+	text-decoration: none;
+	color:white
+ }
+ a:hover{
+    color: black;}
+    
+body{
+    background-color:white;
+    margin: 0px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 0rem;
+}
+
+.columns{
+    flex: 33%;
+    max-width: 100%;
+    padding: 0rem 0rem;
+}
+
+.columns img{
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    padding: 0rem 0rem;
+}
+
+.grid{
+    float: center;
+    margin-left:10% ;
+    margin-bottom: 15rem;
+}
+
+.content{
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+
+p{
+    text-align: center;
+}
+
+    button {
+        background-color:  purple;
+        color: white;
+        padding: 1rem 1.5rem;
+        border: none;
+        margin-bottom: 0%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .contactme{
+       text-align: center;
+       margin-bottom: 8rem;
+    }
+    
+    button:hover{
+        background-color: indigo;
+    }
+    .footer{
+        width: 100%;
+        background-color: purple;
+        color: white;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        bottom: 0px;
+        margin: 0px;
+    }
+    
+    .footer,img{
+        display: flex;
+        float: left;
+    }
+    

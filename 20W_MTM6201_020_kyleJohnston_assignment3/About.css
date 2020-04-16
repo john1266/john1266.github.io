@@ -1,0 +1,181 @@
+
+ul{ 
+	padding:0;
+	margin:0;
+	float:left;
+	display: flex;
+	width: 100%;
+	height: auto;
+	list-style-type: none;
+	text-decoration: none;
+   text-decoration-style: dashed;
+   margin-bottom: 3%;
+ }
+ 
+ li{
+  background-color: purple;
+  padding: 1rem;
+  width: 25%;
+   margin: 0rem;
+   text-align: center;
+   font-family: Impact; 
+   font-size: 1.75rem;
+
+ }
+
+ a{
+	text-decoration: none;
+	color:white
+ }
+ a:hover{
+    color: black;}
+    
+body{
+    background-color:white;
+    margin: 0px;
+}
+
+.content{
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.pic{
+    position: relative;
+    margin: 2rem;
+}
+button {
+    background-color:  purple;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+
+.contactme{
+   text-align: center;
+   margin-bottom: 8rem;
+}
+
+button:hover{
+    background-color: indigo;
+}
+.footer{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px;
+}
+
+.footer,img{
+    display: flex;
+    float: left;
+}
+
+@media only screen and (max-width: 36rem) { 
+
+    ul{ 
+        padding:0;
+        margin:0;
+        display: block;
+        width: 100%;
+        height: auto;
+        list-style-type: none;
+        text-decoration: none;
+       text-decoration-style: dashed;
+       margin-bottom: 3%;
+     }
+     
+     li{
+      background-color: purple;
+      width: 100%;
+      height: auto;
+       margin: 0rem;
+       text-align: center;
+       font-family: Impact; 
+       font-size: 1.75rem;
+       padding: 0rem;
+    
+     }
+    
+     a{
+        text-decoration: none;
+        color:white
+     }
+     a:hover{
+        color: black;}
+        
+body{
+    background-color:white;
+    margin: 0px;
+}
+
+.content{
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.pic{
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+button {
+    background-color:  purple;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+
+.contactme{
+   text-align: center;
+   margin-bottom: 8rem;
+}
+
+button:hover{
+    background-color: indigo;
+}
+.footer{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px;
+}
+
+.footer,img{
+    display: flex;
+    float: left;
+}
+
+} 
